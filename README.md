@@ -6,7 +6,7 @@ Simple clock project
   1. (秒针) 根据CALayer创建一个secLayer,让secLayer旋转,默认是绕着锚点(0.5,0.5)旋转(中心),<br>
       显然要修改锚点的位置为secLayer的底部,因此设置锚点为(0.5,1).<br>
       
-  2. 创建NSTimer对象,每1s做旋转操作\<br>
+  2. 创建NSTimer对象,每1s做旋转操作.<br>
   
   2. 当secLayer旋转,要计算当前旋转度是多少  = 当前的时间 * 每秒旋转的度数.<br>
   
